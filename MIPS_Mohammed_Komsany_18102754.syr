@@ -1,0 +1,340 @@
+Release 14.5 - xst P.58f (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.86 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.87 secs
+ 
+--> Reading design: MIPS_Mohammed_Komsany_18102754.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "MIPS_Mohammed_Komsany_18102754.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "MIPS_Mohammed_Komsany_18102754"
+Output Format                      : NGC
+Target Device                      : xc7a100t-3-csg324
+
+---- Source Options
+Top Module Name                    : MIPS_Mohammed_Komsany_18102754
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "D:\College T6\Computer Architecture\CPU\SingleCycleMips_Mohammed_Komsany_18102754\SignExtend_LB7_Mohammed_Komsany_18102754.vhd" into library work
+Parsing entity <SignExtend_LB7_Mohammed_Komsany_18102754>.
+Parsing architecture <Behavioral> of entity <signextend_lb7_mohammed_komsany_18102754>.
+Parsing VHDL file "D:\College T6\Computer Architecture\CPU\SingleCycleMips_Mohammed_Komsany_18102754\Shift_Left_2_Mohammed_Komsany_18102754.vhd" into library work
+Parsing entity <Shift_Left_2_Mohammed_Komsany_18102754>.
+Parsing architecture <Behavioral> of entity <shift_left_2_mohammed_komsany_18102754>.
+Parsing VHDL file "D:\College T6\Computer Architecture\CPU\SingleCycleMips_Mohammed_Komsany_18102754\RegisterFile_LB5_Mohammed_Komsany_18102754.vhd" into library work
+Parsing entity <RegisterFile_LB5_Mohammed_Komsany_18102754>.
+Parsing architecture <Behavioral> of entity <registerfile_lb5_mohammed_komsany_18102754>.
+Parsing VHDL file "D:\College T6\Computer Architecture\CPU\SingleCycleMips_Mohammed_Komsany_18102754\PCCounter_LB7_Mohammed_Komsany_18102754.vhd" into library work
+Parsing entity <PCCounter_LB7_Mohammed_Komsany_18102754>.
+Parsing architecture <Behavioral> of entity <pccounter_lb7_mohammed_komsany_18102754>.
+Parsing VHDL file "D:\College T6\Computer Architecture\CPU\SingleCycleMips_Mohammed_Komsany_18102754\Mux2x1_5bits.vhd" into library work
+Parsing entity <Mux2x1_5bits>.
+Parsing architecture <Behavioral> of entity <mux2x1_5bits>.
+Parsing VHDL file "D:\College T6\Computer Architecture\CPU\SingleCycleMips_Mohammed_Komsany_18102754\Mux2x1_32bits.vhd" into library work
+Parsing entity <Mux2x1_32bits>.
+Parsing architecture <Behavioral> of entity <mux2x1_32bits>.
+Parsing VHDL file "D:\College T6\Computer Architecture\CPU\SingleCycleMips_Mohammed_Komsany_18102754\MemoryUnit_LB6_Mohammed_Komsany_18102754.vhd" into library work
+Parsing entity <MemoryUnit_LB6_Mohammed_Komsany_18102754>.
+Parsing architecture <Behavioral> of entity <memoryunit_lb6_mohammed_komsany_18102754>.
+Parsing VHDL file "D:\College T6\Computer Architecture\CPU\SingleCycleMips_Mohammed_Komsany_18102754\InstructionMemoryUnit_LB6_Mohammed_Komsany_18102754.vhd" into library work
+Parsing entity <InstructionMemoryUnit_LB6_Mohammed_Komsany_18102754>.
+Parsing architecture <Behavioral> of entity <instructionmemoryunit_lb6_mohammed_komsany_18102754>.
+Parsing VHDL file "D:\College T6\Computer Architecture\CPU\SingleCycleMips_Mohammed_Komsany_18102754\ControlUnit_LB4_Mohammed_Komsany_18102754.vhd" into library work
+Parsing entity <ControlUnit_LB4_Mohammed_Komsany_18102754>.
+Parsing architecture <Behavioral> of entity <controlunit_lb4_mohammed_komsany_18102754>.
+Parsing VHDL file "D:\College T6\Computer Architecture\CPU\SingleCycleMips_Mohammed_Komsany_18102754\ALU_Mohammed_Komsany_18102754.vhd" into library work
+Parsing entity <ALU_Mohammed_Komsany_18102754>.
+Parsing architecture <Behavioral> of entity <alu_mohammed_komsany_18102754>.
+Parsing VHDL file "D:\College T6\Computer Architecture\CPU\SingleCycleMips_Mohammed_Komsany_18102754\ALU_Control_LB3_Mohammed_Komsany_18102754.vhd" into library work
+Parsing entity <ALU_Control_LB3_Mohammed_Komsany_18102754>.
+Parsing architecture <Behavioral> of entity <alu_control_lb3_mohammed_komsany_18102754>.
+Parsing VHDL file "D:\College T6\Computer Architecture\CPU\SingleCycleMips_Mohammed_Komsany_18102754\Adder_Mohammed_Komsany_18102754.vhd" into library work
+Parsing entity <Adder_Mohammed_Komsany_18102754>.
+Parsing architecture <Behavioral> of entity <adder_mohammed_komsany_18102754>.
+Parsing VHDL file "D:\College T6\Computer Architecture\CPU\SingleCycleMips_Mohammed_Komsany_18102754\MIPS_Mohammed_Komsany_18102754.vhd" into library work
+Parsing entity <MIPS_Mohammed_Komsany_18102754>.
+Parsing architecture <Behavioral> of entity <mips_mohammed_komsany_18102754>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <MIPS_Mohammed_Komsany_18102754> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <PCCounter_LB7_Mohammed_Komsany_18102754> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <InstructionMemoryUnit_LB6_Mohammed_Komsany_18102754> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <ControlUnit_LB4_Mohammed_Komsany_18102754> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <SignExtend_LB7_Mohammed_Komsany_18102754> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <Shift_Left_2_Mohammed_Komsany_18102754> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <Mux2x1_5bits> (architecture <Behavioral>) from library <work>.
+INFO:HDLCompiler:679 - "D:\College T6\Computer Architecture\CPU\SingleCycleMips_Mohammed_Komsany_18102754\Mux2x1_5bits.vhd" Line 50. Case statement is complete. others clause is never selected
+
+Elaborating entity <Mux2x1_32bits> (architecture <Behavioral>) from library <work>.
+INFO:HDLCompiler:679 - "D:\College T6\Computer Architecture\CPU\SingleCycleMips_Mohammed_Komsany_18102754\Mux2x1_32bits.vhd" Line 51. Case statement is complete. others clause is never selected
+
+Elaborating entity <Adder_Mohammed_Komsany_18102754> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <ALU_Control_LB3_Mohammed_Komsany_18102754> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <ALU_Mohammed_Komsany_18102754> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <RegisterFile_LB5_Mohammed_Komsany_18102754> (architecture <Behavioral>) from library <work>.
+WARNING:HDLCompiler:92 - "D:\College T6\Computer Architecture\CPU\SingleCycleMips_Mohammed_Komsany_18102754\RegisterFile_LB5_Mohammed_Komsany_18102754.vhd" Line 51: reg_array should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "D:\College T6\Computer Architecture\CPU\SingleCycleMips_Mohammed_Komsany_18102754\RegisterFile_LB5_Mohammed_Komsany_18102754.vhd" Line 52: reg_array should be on the sensitivity list of the process
+
+Elaborating entity <MemoryUnit_LB6_Mohammed_Komsany_18102754> (architecture <Behavioral>) from library <work>.
+WARNING:Xst:2972 - "D:\College T6\Computer Architecture\CPU\SingleCycleMips_Mohammed_Komsany_18102754\MIPS_Mohammed_Komsany_18102754.vhd" line 103. All outputs of instance <PC_Counter> of block <PCCounter_LB7_Mohammed_Komsany_18102754> are unconnected in block <MIPS_Mohammed_Komsany_18102754>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\College T6\Computer Architecture\CPU\SingleCycleMips_Mohammed_Komsany_18102754\MIPS_Mohammed_Komsany_18102754.vhd" line 110. All outputs of instance <Instruction_Memory> of block <InstructionMemoryUnit_LB6_Mohammed_Komsany_18102754> are unconnected in block <MIPS_Mohammed_Komsany_18102754>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\College T6\Computer Architecture\CPU\SingleCycleMips_Mohammed_Komsany_18102754\MIPS_Mohammed_Komsany_18102754.vhd" line 118. All outputs of instance <Control_Unit> of block <ControlUnit_LB4_Mohammed_Komsany_18102754> are unconnected in block <MIPS_Mohammed_Komsany_18102754>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\College T6\Computer Architecture\CPU\SingleCycleMips_Mohammed_Komsany_18102754\MIPS_Mohammed_Komsany_18102754.vhd" line 133. All outputs of instance <Immediate_Extend> of block <SignExtend_LB7_Mohammed_Komsany_18102754> are unconnected in block <MIPS_Mohammed_Komsany_18102754>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\College T6\Computer Architecture\CPU\SingleCycleMips_Mohammed_Komsany_18102754\MIPS_Mohammed_Komsany_18102754.vhd" line 140. All outputs of instance <Shift_Left_Immediate> of block <Shift_Left_2_Mohammed_Komsany_18102754> are unconnected in block <MIPS_Mohammed_Komsany_18102754>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\College T6\Computer Architecture\CPU\SingleCycleMips_Mohammed_Komsany_18102754\MIPS_Mohammed_Komsany_18102754.vhd" line 148. All outputs of instance <Mux_2x1_Write_Register_Addr> of block <Mux2x1_5bits> are unconnected in block <MIPS_Mohammed_Komsany_18102754>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\College T6\Computer Architecture\CPU\SingleCycleMips_Mohammed_Komsany_18102754\MIPS_Mohammed_Komsany_18102754.vhd" line 157. All outputs of instance <Mux_2x1_Write_Register_Data> of block <Mux2x1_32bits> are unconnected in block <MIPS_Mohammed_Komsany_18102754>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\College T6\Computer Architecture\CPU\SingleCycleMips_Mohammed_Komsany_18102754\MIPS_Mohammed_Komsany_18102754.vhd" line 166. All outputs of instance <Mux_2x1_ALUInput_2> of block <Mux2x1_32bits> are unconnected in block <MIPS_Mohammed_Komsany_18102754>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\College T6\Computer Architecture\CPU\SingleCycleMips_Mohammed_Komsany_18102754\MIPS_Mohammed_Komsany_18102754.vhd" line 174. All outputs of instance <Mux_2x1_reg_write_data> of block <Mux2x1_32bits> are unconnected in block <MIPS_Mohammed_Komsany_18102754>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\College T6\Computer Architecture\CPU\SingleCycleMips_Mohammed_Komsany_18102754\MIPS_Mohammed_Komsany_18102754.vhd" line 183. All outputs of instance <Mux_2x1_pc_input> of block <Mux2x1_32bits> are unconnected in block <MIPS_Mohammed_Komsany_18102754>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\College T6\Computer Architecture\CPU\SingleCycleMips_Mohammed_Komsany_18102754\MIPS_Mohammed_Komsany_18102754.vhd" line 193. All outputs of instance <PC_Add_4> of block <Adder_Mohammed_Komsany_18102754> are unconnected in block <MIPS_Mohammed_Komsany_18102754>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\College T6\Computer Architecture\CPU\SingleCycleMips_Mohammed_Komsany_18102754\MIPS_Mohammed_Komsany_18102754.vhd" line 196. All outputs of instance <Branch_target_addr> of block <Adder_Mohammed_Komsany_18102754> are unconnected in block <MIPS_Mohammed_Komsany_18102754>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\College T6\Computer Architecture\CPU\SingleCycleMips_Mohammed_Komsany_18102754\MIPS_Mohammed_Komsany_18102754.vhd" line 201. All outputs of instance <ALU_Control_Unit> of block <ALU_Control_LB3_Mohammed_Komsany_18102754> are unconnected in block <MIPS_Mohammed_Komsany_18102754>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\College T6\Computer Architecture\CPU\SingleCycleMips_Mohammed_Komsany_18102754\MIPS_Mohammed_Komsany_18102754.vhd" line 208. All outputs of instance <ALU_Unit> of block <ALU_Mohammed_Komsany_18102754> are unconnected in block <MIPS_Mohammed_Komsany_18102754>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\College T6\Computer Architecture\CPU\SingleCycleMips_Mohammed_Komsany_18102754\MIPS_Mohammed_Komsany_18102754.vhd" line 218. All outputs of instance <Register_File> of block <RegisterFile_LB5_Mohammed_Komsany_18102754> are unconnected in block <MIPS_Mohammed_Komsany_18102754>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\College T6\Computer Architecture\CPU\SingleCycleMips_Mohammed_Komsany_18102754\MIPS_Mohammed_Komsany_18102754.vhd" line 230. All outputs of instance <Memory_Unit> of block <MemoryUnit_LB6_Mohammed_Komsany_18102754> are unconnected in block <MIPS_Mohammed_Komsany_18102754>. Underlying logic will be removed.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <MIPS_Mohammed_Komsany_18102754>.
+    Related source file is "D:\College T6\Computer Architecture\CPU\SingleCycleMips_Mohammed_Komsany_18102754\MIPS_Mohammed_Komsany_18102754.vhd".
+INFO:Xst:3210 - "D:\College T6\Computer Architecture\CPU\SingleCycleMips_Mohammed_Komsany_18102754\MIPS_Mohammed_Komsany_18102754.vhd" line 157: Output port <Output> of the instance <Mux_2x1_Write_Register_Data> is unconnected or connected to loadless signal.
+    Summary:
+	no macro.
+Unit <MIPS_Mohammed_Komsany_18102754> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <MIPS_Mohammed_Komsany_18102754> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block MIPS_Mohammed_Komsany_18102754, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : MIPS_Mohammed_Komsany_18102754.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 7a100tcsg324-3 
+
+
+Slice Logic Utilization: 
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:      0
+   Number with an unused Flip Flop:       0  out of      0         
+   Number with an unused LUT:             0  out of      0         
+   Number of fully used LUT-FF pairs:     0  out of      0         
+   Number of unique control sets:         0
+
+IO Utilization: 
+ Number of IOs:                           1
+ Number of bonded IOBs:                   0  out of    210     0%  
+
+Specific Feature Utilization:
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 12.00 secs
+Total CPU time to Xst completion: 12.22 secs
+ 
+--> 
+
+Total memory usage is 4614896 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   18 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

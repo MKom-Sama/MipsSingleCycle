@@ -1,0 +1,28 @@
+Command line:
+   MemoryUnit_LB6_Mohammed_Komsany_18102754_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  65061
+
+Fri Jun 04 07:45:28 2021
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 5145.84 Meg
+
+ Total Signals          : 7
+ Total Nets             : 1123
+ Total Signal Drivers   : 2
+ Total Blocks           : 3
+ Total Primitive Blocks : 3
+ Total Processes        : 1
+ Total Traceable Variables  : 13
+ Total Scalar Nets and Variables : 1606
+
+ Total Simulation Time: 0.078125 sec
+
+ Current Memory Usage: 5145.84 Meg
+
+Fri Jun 04 07:45:42 2021
+

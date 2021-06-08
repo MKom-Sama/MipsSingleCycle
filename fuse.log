@@ -1,0 +1,45 @@
+Running: D:\Xillin\14.5\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o D:/College T6/Computer Architecture/CPU/SingleCycleMips_Mohammed_Komsany_18102754/MIPS_Mohammed_Komsany_18102754_isim_beh.exe -prj D:/College T6/Computer Architecture/CPU/SingleCycleMips_Mohammed_Komsany_18102754/MIPS_Mohammed_Komsany_18102754_beh.prj work.MIPS_Mohammed_Komsany_18102754 
+ISim P.58f (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "D:/College T6/Computer Architecture/CPU/SingleCycleMips_Mohammed_Komsany_18102754/SignExtend_LB7_Mohammed_Komsany_18102754.vhd" into library work
+Parsing VHDL file "D:/College T6/Computer Architecture/CPU/SingleCycleMips_Mohammed_Komsany_18102754/Shift_Left_2_Mohammed_Komsany_18102754.vhd" into library work
+Parsing VHDL file "D:/College T6/Computer Architecture/CPU/SingleCycleMips_Mohammed_Komsany_18102754/RegisterFile_LB5_Mohammed_Komsany_18102754.vhd" into library work
+Parsing VHDL file "D:/College T6/Computer Architecture/CPU/SingleCycleMips_Mohammed_Komsany_18102754/PCCounter_LB7_Mohammed_Komsany_18102754.vhd" into library work
+Parsing VHDL file "D:/College T6/Computer Architecture/CPU/SingleCycleMips_Mohammed_Komsany_18102754/Mux2x1_5bits.vhd" into library work
+Parsing VHDL file "D:/College T6/Computer Architecture/CPU/SingleCycleMips_Mohammed_Komsany_18102754/Mux2x1_32bits.vhd" into library work
+Parsing VHDL file "D:/College T6/Computer Architecture/CPU/SingleCycleMips_Mohammed_Komsany_18102754/MemoryUnit_LB6_Mohammed_Komsany_18102754.vhd" into library work
+Parsing VHDL file "D:/College T6/Computer Architecture/CPU/SingleCycleMips_Mohammed_Komsany_18102754/InstructionMemoryUnit_LB6_Mohammed_Komsany_18102754.vhd" into library work
+Parsing VHDL file "D:/College T6/Computer Architecture/CPU/SingleCycleMips_Mohammed_Komsany_18102754/ControlUnit_LB4_Mohammed_Komsany_18102754.vhd" into library work
+Parsing VHDL file "D:/College T6/Computer Architecture/CPU/SingleCycleMips_Mohammed_Komsany_18102754/ALU_Mohammed_Komsany_18102754.vhd" into library work
+Parsing VHDL file "D:/College T6/Computer Architecture/CPU/SingleCycleMips_Mohammed_Komsany_18102754/ALU_Control_LB3_Mohammed_Komsany_18102754.vhd" into library work
+Parsing VHDL file "D:/College T6/Computer Architecture/CPU/SingleCycleMips_Mohammed_Komsany_18102754/Adder_Mohammed_Komsany_18102754.vhd" into library work
+Parsing VHDL file "D:/College T6/Computer Architecture/CPU/SingleCycleMips_Mohammed_Komsany_18102754/MIPS_Mohammed_Komsany_18102754.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package numeric_std
+Compiling architecture behavioral of entity PCCounter_LB7_Mohammed_Komsany_18102754 [pccounter_lb7_mohammed_komsany_1...]
+Compiling architecture behavioral of entity InstructionMemoryUnit_LB6_Mohammed_Komsany_18102754 [instructionmemoryunit_lb6_mohamm...]
+Compiling architecture behavioral of entity ControlUnit_LB4_Mohammed_Komsany_18102754 [controlunit_lb4_mohammed_komsany...]
+Compiling architecture behavioral of entity SignExtend_LB7_Mohammed_Komsany_18102754 [signextend_lb7_mohammed_komsany_...]
+Compiling architecture behavioral of entity Shift_Left_2_Mohammed_Komsany_18102754 [shift_left_2_mohammed_komsany_18...]
+Compiling architecture behavioral of entity Mux2x1_5bits [mux2x1_5bits_default]
+Compiling architecture behavioral of entity Mux2x1_32bits [mux2x1_32bits_default]
+Compiling architecture behavioral of entity Adder_Mohammed_Komsany_18102754 [adder_mohammed_komsany_18102754_...]
+Compiling architecture behavioral of entity ALU_Control_LB3_Mohammed_Komsany_18102754 [alu_control_lb3_mohammed_komsany...]
+Compiling architecture behavioral of entity ALU_Mohammed_Komsany_18102754 [alu_mohammed_komsany_18102754_de...]
+Compiling architecture behavioral of entity RegisterFile_LB5_Mohammed_Komsany_18102754 [registerfile_lb5_mohammed_komsan...]
+Compiling architecture behavioral of entity MemoryUnit_LB6_Mohammed_Komsany_18102754 [memoryunit_lb6_mohammed_komsany_...]
+Compiling architecture behavioral of entity mips_mohammed_komsany_18102754
+Time Resolution for simulation is 1ps.
+Waiting for 10 sub-compilation(s) to finish...
+WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: The system cannot find the path specified, "isim\MIPS_Mohammed_Komsany_18102754_isim_beh.exe.sim\libPortability.dll".
+Compiled 30 VHDL Units
+Built simulation executable D:/College T6/Computer Architecture/CPU/SingleCycleMips_Mohammed_Komsany_18102754/MIPS_Mohammed_Komsany_18102754_isim_beh.exe
+Fuse Memory Usage: 37052 KB
+Fuse CPU Usage: 718 ms

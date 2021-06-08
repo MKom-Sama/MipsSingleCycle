@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"D:\College T6\Computer Architecture\CPU\SingleCycleMips_Mohammed_Komsany_18102754\RegisterFile_LB5_Mohammed_Komsany_18102754.vhd" Line 51: <arg fmt="%s" index="1">reg_array</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"D:\College T6\Computer Architecture\CPU\SingleCycleMips_Mohammed_Komsany_18102754\RegisterFile_LB5_Mohammed_Komsany_18102754.vhd" Line 52: <arg fmt="%s" index="1">reg_array</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">D:\College T6\Computer Architecture\CPU\SingleCycleMips_Mohammed_Komsany_18102754\MIPS_Mohammed_Komsany_18102754.vhd</arg>&quot; line <arg fmt="%d" index="2">103</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">PC_Counter</arg>&gt; of block &lt;<arg fmt="%s" index="4">PCCounter_LB7_Mohammed_Komsany_18102754</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">MIPS_Mohammed_Komsany_18102754</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">D:\College T6\Computer Architecture\CPU\SingleCycleMips_Mohammed_Komsany_18102754\MIPS_Mohammed_Komsany_18102754.vhd</arg>&quot; line <arg fmt="%d" index="2">110</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">Instruction_Memory</arg>&gt; of block &lt;<arg fmt="%s" index="4">InstructionMemoryUnit_LB6_Mohammed_Komsany_18102754</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">MIPS_Mohammed_Komsany_18102754</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">D:\College T6\Computer Architecture\CPU\SingleCycleMips_Mohammed_Komsany_18102754\MIPS_Mohammed_Komsany_18102754.vhd</arg>&quot; line <arg fmt="%d" index="2">118</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">Control_Unit</arg>&gt; of block &lt;<arg fmt="%s" index="4">ControlUnit_LB4_Mohammed_Komsany_18102754</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">MIPS_Mohammed_Komsany_18102754</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">D:\College T6\Computer Architecture\CPU\SingleCycleMips_Mohammed_Komsany_18102754\MIPS_Mohammed_Komsany_18102754.vhd</arg>&quot; line <arg fmt="%d" index="2">133</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">Immediate_Extend</arg>&gt; of block &lt;<arg fmt="%s" index="4">SignExtend_LB7_Mohammed_Komsany_18102754</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">MIPS_Mohammed_Komsany_18102754</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">D:\College T6\Computer Architecture\CPU\SingleCycleMips_Mohammed_Komsany_18102754\MIPS_Mohammed_Komsany_18102754.vhd</arg>&quot; line <arg fmt="%d" index="2">140</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">Shift_Left_Immediate</arg>&gt; of block &lt;<arg fmt="%s" index="4">Shift_Left_2_Mohammed_Komsany_18102754</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">MIPS_Mohammed_Komsany_18102754</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">D:\College T6\Computer Architecture\CPU\SingleCycleMips_Mohammed_Komsany_18102754\MIPS_Mohammed_Komsany_18102754.vhd</arg>&quot; line <arg fmt="%d" index="2">148</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">Mux_2x1_Write_Register_Addr</arg>&gt; of block &lt;<arg fmt="%s" index="4">Mux2x1_5bits</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">MIPS_Mohammed_Komsany_18102754</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">D:\College T6\Computer Architecture\CPU\SingleCycleMips_Mohammed_Komsany_18102754\MIPS_Mohammed_Komsany_18102754.vhd</arg>&quot; line <arg fmt="%d" index="2">157</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">Mux_2x1_Write_Register_Data</arg>&gt; of block &lt;<arg fmt="%s" index="4">Mux2x1_32bits</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">MIPS_Mohammed_Komsany_18102754</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">D:\College T6\Computer Architecture\CPU\SingleCycleMips_Mohammed_Komsany_18102754\MIPS_Mohammed_Komsany_18102754.vhd</arg>&quot; line <arg fmt="%d" index="2">166</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">Mux_2x1_ALUInput_2</arg>&gt; of block &lt;<arg fmt="%s" index="4">Mux2x1_32bits</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">MIPS_Mohammed_Komsany_18102754</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">D:\College T6\Computer Architecture\CPU\SingleCycleMips_Mohammed_Komsany_18102754\MIPS_Mohammed_Komsany_18102754.vhd</arg>&quot; line <arg fmt="%d" index="2">174</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">Mux_2x1_reg_write_data</arg>&gt; of block &lt;<arg fmt="%s" index="4">Mux2x1_32bits</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">MIPS_Mohammed_Komsany_18102754</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">D:\College T6\Computer Architecture\CPU\SingleCycleMips_Mohammed_Komsany_18102754\MIPS_Mohammed_Komsany_18102754.vhd</arg>&quot; line <arg fmt="%d" index="2">183</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">Mux_2x1_pc_input</arg>&gt; of block &lt;<arg fmt="%s" index="4">Mux2x1_32bits</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">MIPS_Mohammed_Komsany_18102754</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">D:\College T6\Computer Architecture\CPU\SingleCycleMips_Mohammed_Komsany_18102754\MIPS_Mohammed_Komsany_18102754.vhd</arg>&quot; line <arg fmt="%d" index="2">193</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">PC_Add_4</arg>&gt; of block &lt;<arg fmt="%s" index="4">Adder_Mohammed_Komsany_18102754</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">MIPS_Mohammed_Komsany_18102754</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">D:\College T6\Computer Architecture\CPU\SingleCycleMips_Mohammed_Komsany_18102754\MIPS_Mohammed_Komsany_18102754.vhd</arg>&quot; line <arg fmt="%d" index="2">196</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">Branch_target_addr</arg>&gt; of block &lt;<arg fmt="%s" index="4">Adder_Mohammed_Komsany_18102754</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">MIPS_Mohammed_Komsany_18102754</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">D:\College T6\Computer Architecture\CPU\SingleCycleMips_Mohammed_Komsany_18102754\MIPS_Mohammed_Komsany_18102754.vhd</arg>&quot; line <arg fmt="%d" index="2">201</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">ALU_Control_Unit</arg>&gt; of block &lt;<arg fmt="%s" index="4">ALU_Control_LB3_Mohammed_Komsany_18102754</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">MIPS_Mohammed_Komsany_18102754</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">D:\College T6\Computer Architecture\CPU\SingleCycleMips_Mohammed_Komsany_18102754\MIPS_Mohammed_Komsany_18102754.vhd</arg>&quot; line <arg fmt="%d" index="2">208</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">ALU_Unit</arg>&gt; of block &lt;<arg fmt="%s" index="4">ALU_Mohammed_Komsany_18102754</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">MIPS_Mohammed_Komsany_18102754</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">D:\College T6\Computer Architecture\CPU\SingleCycleMips_Mohammed_Komsany_18102754\MIPS_Mohammed_Komsany_18102754.vhd</arg>&quot; line <arg fmt="%d" index="2">218</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">Register_File</arg>&gt; of block &lt;<arg fmt="%s" index="4">RegisterFile_LB5_Mohammed_Komsany_18102754</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">MIPS_Mohammed_Komsany_18102754</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">D:\College T6\Computer Architecture\CPU\SingleCycleMips_Mohammed_Komsany_18102754\MIPS_Mohammed_Komsany_18102754.vhd</arg>&quot; line <arg fmt="%d" index="2">230</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">Memory_Unit</arg>&gt; of block &lt;<arg fmt="%s" index="4">MemoryUnit_LB6_Mohammed_Komsany_18102754</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">MIPS_Mohammed_Komsany_18102754</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\College T6\Computer Architecture\CPU\SingleCycleMips_Mohammed_Komsany_18102754\MIPS_Mohammed_Komsany_18102754.vhd</arg>&quot; line <arg fmt="%s" index="2">157</arg>: Output port &lt;<arg fmt="%s" index="3">Output</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">Mux_2x1_Write_Register_Data</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+</messages>
+

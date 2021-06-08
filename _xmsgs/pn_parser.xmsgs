@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated   -->
+<!--     by the Xilinx ISE software.  Any direct editing or        -->
+<!--     changes made to this file may result in unpredictable     -->
+<!--     behavior or data corruption.  It is strongly advised that -->
+<!--     users do not edit the contents of this file.              -->
+<!--                                                               -->
+<!-- Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.    -->
+
+<messages>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/College T6/Computer Architecture/CPU/SingleCycleMips_Mohammed_Komsany_18102754/ALU_Control_LB3_Mohammed_Komsany_18102754.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/College T6/Computer Architecture/CPU/SingleCycleMips_Mohammed_Komsany_18102754/ALU_Mohammed_Komsany_18102754.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/College T6/Computer Architecture/CPU/SingleCycleMips_Mohammed_Komsany_18102754/Adder_Mohammed_Komsany_18102754.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/College T6/Computer Architecture/CPU/SingleCycleMips_Mohammed_Komsany_18102754/ControlUnit_LB4_Mohammed_Komsany_18102754.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/College T6/Computer Architecture/CPU/SingleCycleMips_Mohammed_Komsany_18102754/InstructionMemoryUnit_LB6_Mohammed_Komsany_18102754.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/College T6/Computer Architecture/CPU/SingleCycleMips_Mohammed_Komsany_18102754/MIPS_Mohammed_Komsany_18102754.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/College T6/Computer Architecture/CPU/SingleCycleMips_Mohammed_Komsany_18102754/MemoryUnit_LB6_Mohammed_Komsany_18102754.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/College T6/Computer Architecture/CPU/SingleCycleMips_Mohammed_Komsany_18102754/Mux2x1_32bits.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/College T6/Computer Architecture/CPU/SingleCycleMips_Mohammed_Komsany_18102754/Mux2x1_5bits.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/College T6/Computer Architecture/CPU/SingleCycleMips_Mohammed_Komsany_18102754/PCCounter_LB7_Mohammed_Komsany_18102754.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/College T6/Computer Architecture/CPU/SingleCycleMips_Mohammed_Komsany_18102754/RegisterFile_LB5_Mohammed_Komsany_18102754.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/College T6/Computer Architecture/CPU/SingleCycleMips_Mohammed_Komsany_18102754/Shift_Left_2_Mohammed_Komsany_18102754.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/College T6/Computer Architecture/CPU/SingleCycleMips_Mohammed_Komsany_18102754/SignExtend_LB7_Mohammed_Komsany_18102754.vhd&quot; into library work</arg>
+</msg>
+
+</messages>
+
